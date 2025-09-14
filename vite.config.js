@@ -40,6 +40,7 @@ export default defineConfig(({ command, mode }) => {
     } else if (mode === 'game') {
 
       return {
+        base: './',
         build: {
           outDir: './dist',
           emptyOutDir: true,
